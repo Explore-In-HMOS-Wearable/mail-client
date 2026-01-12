@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.mailclient",
+    "bundleName": "com.hmosdemos.wearable.mail_client",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

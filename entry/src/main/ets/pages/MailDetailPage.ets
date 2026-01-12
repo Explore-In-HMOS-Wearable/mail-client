@@ -12,10 +12,6 @@ export struct MailDetailPage {
 
   sendReply(): void {
     if (this.replyText.trim() !== '') {
-      promptAction.showToast({
-        message: 'Reply sent!',
-        duration: 2000,
-      });
       this.replyText = '';
       this.isReplyVisible = false;
     }
@@ -29,15 +25,12 @@ export struct MailDetailPage {
 
         Scroll() {
           Column() {
-            Row(){
-
-              Text(this.mailDetail.subject)
-                .fontSize(22)
-                .fontColor(Color.White)
-                .fontWeight(FontWeight.Bold)
-                .margin({ top: 16, bottom: 16 })
-                .width('100%')
-            }
+            Text(this.mailDetail.subject)
+              .fontSize(22)
+              .fontColor(Color.White)
+              .fontWeight(FontWeight.Bold)
+              .margin({ top: 16, bottom: 16 })
+              .width('100%')
             Row() {
               Image($r('app.media.icon_profile'))
                 .width(40)
@@ -155,7 +148,7 @@ export struct MailDetailPage {
             .width('100%')
             .padding({ top: 8, bottom: 8 })
 
-            Text('Re: ' + this.mailDetail.subject)
+            Text(`Re: ${this.mailDetail.subject}`)
               .fontSize(14)
               .fontColor('#AAAAAA')
               .width('100%')
@@ -200,7 +193,7 @@ export struct MailDetailPage {
       .backgroundColor('#000000')
     }.onReady((ctx: NavDestinationContext) => {
       this.pageStack = ctx.pathStack;
-      const params = ctx.pathInfo.param as MailDetail ;
+      const params = ctx.pathInfo.param as MailDetail;
       if (params) {
         this.mailDetail = params;
         this.mailDetail = this.viewModel.getMailDetailById(params.id)!

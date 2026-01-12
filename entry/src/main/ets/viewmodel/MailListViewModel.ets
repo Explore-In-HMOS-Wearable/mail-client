@@ -18,7 +18,7 @@ export class MailListViewModel {
     new Mail(9, 3, 'To: David Brown', 'Document Shared', 'I\'ve shared the document you requested...', 'Thursday', true),
 
     // Trash mails
-    new Mail(10, 4, 'Special Offer', '90% OFF TODAY ONLY!', 'Don\'t miss this exclusive deal...', 'Tuesday', true),
+    new Mail(10, 4, 'Special Offer', '90% OFF TODAY ONLY!', 'Don\'t miss this exclusive deal...', 'Tuesday', true)
   ];
 
   getMailsByFolder(folderId: number): Array<Mail> {

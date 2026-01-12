@@ -5,7 +5,7 @@ export class MailDetailViewModel {
     {
       id: 1,
       subject: 'Project Update',
-      sender: { name: 'John Smith', email: 'john.smith@example.com', avatar: 'https://example.com/avatars/john.png' } as Sender,
+      sender: { name: 'John Smith', email: 'examplemail', avatar: 'exampleavatar' } as Sender,
       recipients: [
         { name: 'You', email: 'you@example.com' } as Recipient
       ] as Recipient[],
@@ -15,7 +15,7 @@ export class MailDetailViewModel {
     {
       id: 2,
       subject: 'Meeting Tomorrow',
-      sender: { name: 'Alice Johnson', email: 'alice.johnson@example.com', avatar: 'https://example.com/avatars/alice.png' } as Sender,
+      sender: { name: 'Alice Johnson', email: 'examplemail', avatar: 'exampleavatar' } as Sender,
       recipients: [
         { name: 'You', email: 'you@example.com' } as Recipient
       ] as Recipient[],
@@ -25,7 +25,7 @@ export class MailDetailViewModel {
     {
       id: 3,
       subject: 'New message',
-      sender: { name: 'Team Slack', email: 'no-reply@example.com', avatar: 'https://example.com/avatars/slack.png' } as Sender,
+      sender: { name: 'John Smith', email: 'examplemail', avatar: 'exampleavatar' } as Sender,
       recipients: [
         { name: 'You', email: 'you@example.com' } as Recipient
       ] as Recipient[],
@@ -35,7 +35,7 @@ export class MailDetailViewModel {
     {
       id: 4,
       subject: 'Weekly Digest',
-      sender: { name: 'Newsletter', email: 'newsletter@example.com', avatar: 'https://example.com/avatars/newsletter.png' } as Sender,
+      sender: { name: 'John Smith', email: 'examplemail', avatar: 'exampleavatar' } as Sender,
       recipients: [
         { name: 'You', email: 'you@example.com' } as Recipient
       ] as Recipient[],
@@ -45,7 +45,7 @@ export class MailDetailViewModel {
     {
       id: 5,
       subject: 'Feedback Requested',
-      sender: { name: 'Bob Wilson', email: 'bob.wilson@example.com', avatar: 'https://example.com/avatars/bob.png' } as Sender,
+      sender: { name: 'John Smith', email: 'examplemail', avatar: 'exampleavatar' } as Sender,
       recipients: [
         { name: 'You', email: 'you@example.com' } as Recipient
       ] as Recipient[],

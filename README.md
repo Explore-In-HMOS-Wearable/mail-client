@@ -40,8 +40,6 @@ entry/src/main/ets/
 |---|---Index
 |---|---MailDetailPage
 |---|---MailListPage
-|---util
-|---|---NavigationHelper
 |---viewmodel
 |---|---HomeViewModel
 |---|---MailDetailViewModel
