@@ -1,8 +1,52 @@
 {
   "color": [
     {
-      "name": "start_window_background",
+      "name": "white",
       "value": "#FFFFFF"
+    },
+    {
+      "name": "black",
+      "value": "#000000"
+    },
+    {
+      "name": "brand_primary",
+      "value": "#0A84FF"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#AAAAAA"
+    },
+    {
+      "name": "card_background_color",
+      "value": "#1C1C1E"
+    },
+    {
+      "name": "body_text_color",
+      "value": "#E0E0E0"
+    },
+    {
+      "name": "search_placeholder_color",
+      "value": "#8E8E93"
+    },
+    {
+      "name": "button_secondary_bg",
+      "value": "#2C2C2E"
+    },
+    {
+      "name": "button_cancel_bg",
+      "value": "#3A3A3C"
+    },
+    {
+      "name": "textarea_placeholder",
+      "value": "#777777"
+    },
+    {
+      "name": "unread_badge_bg",
+      "value": "#0A84FF"
+    },
+    {
+      "name": "mail_subject_read",
+      "value": "#CCCCCC"
     }
   ]
 }

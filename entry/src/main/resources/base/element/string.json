@@ -11,6 +11,58 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "smart_reply_title",
+      "value": "Smart Reply"
+    },
+    {
+      "name": "reply_button_text",
+      "value": "Reply"
+    },
+    {
+      "name": "reply_to_label",
+      "value": "To: "
+    },
+    {
+      "name": "reply_placeholder",
+      "value": "Type your reply..."
+    },
+    {
+      "name": "cancel_button",
+      "value": "Cancel"
+    },
+    {
+      "name": "send_button",
+      "value": "Send"
+    },
+    {
+      "name": "toast_sent",
+      "value": "Reply sent!"
+    },
+    {
+      "name": "home_page_name",
+      "value": "HomePage"
+    },
+    {
+      "name": "smart_reply_1",
+      "value": "Got it, thanks!"
+    },
+    {
+      "name": "smart_reply_2",
+      "value": "I'll check it later."
+    },
+    {
+      "name": "smart_reply_3",
+      "value": "On it now."
+    },
+    {
+      "name": "smart_reply_4",
+      "value": "Sounds good."
+    },
+    {
+      "name": "search_placeholder",
+      "value": "Search"
     }
   ]
 }

@@ -83,15 +83,13 @@ dist/
 out/
 
 ############################
-# JetBrains extra metadata
+# extra metadata
 ############################
 *.iml
 
-# Ana dizindeki detail ve shell klasörlerini hariç tut
 /detail/
 /shell/
 
-# Tüm Excel dosyalarını hariç tut
 *.xls
 *.xlsx
 *.xlsm
